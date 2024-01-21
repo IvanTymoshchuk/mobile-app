@@ -75,7 +75,6 @@ export const NavList = styled.ul`
 export const NavItem = styled.li``;
 
 export const NavLink = styled.button`
-  background-color: transparent;
   padding: 10px;
   color: white;
   font-size: 15px;
@@ -85,7 +84,7 @@ export const NavLink = styled.button`
   @media screen and (min-width: 768px) {
     &:hover,
     &:focus {
-      background-color: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+      background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
