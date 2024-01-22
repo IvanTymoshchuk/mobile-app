@@ -1,5 +1,9 @@
 import { Title } from './Title.styled';
 
-export const Titles = ({ text, margin }) => {
-  return <Title margin={margin}>{text}</Title>;
+export const Titles = ({ text, margin, color }) => {
+  return (
+    <Title margin={margin} color={color}>
+      {text}
+    </Title>
+  );
 };

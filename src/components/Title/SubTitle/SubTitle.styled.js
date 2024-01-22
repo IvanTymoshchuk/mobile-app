@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const SubTitle = styled.p`
-  color: #000;
+   color: ${props => props.color};
   text-align: center;
   font-size: 14px;
   font-weight: 500;
