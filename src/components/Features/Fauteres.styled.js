@@ -43,10 +43,13 @@ export const ItemsTitle = styled.h3`
   font-weight: 700;
   line-height: 20px;
   margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
 `;
 export const Paragraf = styled.p`
   width: 241px;
   color: #000;
   font-size: 12px;
   line-height: normal;
+  margin-left: 35px;
 `;

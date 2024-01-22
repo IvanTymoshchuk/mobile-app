@@ -1,7 +1,15 @@
 import { Titles } from 'components/Title/Title';
 import { SubTitles } from 'components/Title/SubTitle/SubTitle';
-import { Section, WrapImg,List, Items, ItemsTitle, Paragraf } from './Fauteres.styled';
+import {
+  Section,
+  WrapImg,
+  List,
+  Items,
+  ItemsTitle,
+  Paragraf,
+} from './Fauteres.styled';
 import fautures from '../img/fautures.png';
+import { SvgIcon } from 'components/Svg/Svg';
 // import nft from '../img/nft.png';
 
 export const Fauteres = () => {
@@ -17,21 +25,30 @@ export const Fauteres = () => {
       </WrapImg>
       <List>
         <Items>
-          <ItemsTitle>User-Friendly Interface:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            User-Friendly Interface:
+          </ItemsTitle>
           <Paragraf>
             Intuitive and easy-to-navigate interface designed to provide a
             seamless mobile experience for users.
           </Paragraf>
         </Items>
         <Items>
-          <ItemsTitle>Personalized Recommendations:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            Personalized Recommendations:
+          </ItemsTitle>
           <Paragraf>
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </Paragraf>
         </Items>
         <Items>
-          <ItemsTitle>Real-Time Updates:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            Real-Time Updates:
+          </ItemsTitle>
           <Paragraf>
             Users receive real-time updates and notifications to stay informed
             on important news and events, and to stay up-to-date with changes to
@@ -39,7 +56,10 @@ export const Fauteres = () => {
           </Paragraf>
         </Items>
         <Items>
-          <ItemsTitle>Integration with Other Apps:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            Integration with Other Apps:
+          </ItemsTitle>
           <Paragraf>
             The app integrates with other popular apps, making it easy for users
             to connect with their social media accounts, or to easily make
@@ -47,7 +67,10 @@ export const Fauteres = () => {
           </Paragraf>
         </Items>
         <Items>
-          <ItemsTitle>Multi-Language Support:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            Multi-Language Support:
+          </ItemsTitle>
           <Paragraf>
             The app is designed to be accessible to users all around the world,
             with support for multiple languages, making it easier for people to
@@ -55,7 +78,10 @@ export const Fauteres = () => {
           </Paragraf>
         </Items>
         <Items>
-          <ItemsTitle>Offline Capabilities:</ItemsTitle>
+          <ItemsTitle>
+            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            Offline Capabilities:
+          </ItemsTitle>
           <Paragraf>
             The app offers offline capabilities, allowing users to access
             certain features and content even when they are not connected to the
