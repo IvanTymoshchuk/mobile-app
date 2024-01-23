@@ -4,8 +4,9 @@ import two from '../img/team/2.png';
 import three from '../img/team/3.png';
 import four from '../img/team/4.png';
 
-import { Section, Img, Item, List, Paragraf,ParagrafSec } from './Team.styled';
+import { Section, Img, Item, List, Paragraf, ParagrafSec } from './Team.styled';
 import { SubTitles } from 'components/Title/SubTitle/SubTitle';
+import { Customers } from './Customers/Customers';
 
 export const Team = () => {
   return (
@@ -37,6 +38,7 @@ export const Team = () => {
           <ParagrafSec>Sr. UI Designer</ParagrafSec>
         </Item>
       </List>
+      <Customers />
     </Section>
   );
 };

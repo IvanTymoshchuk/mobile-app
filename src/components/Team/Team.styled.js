@@ -45,6 +45,9 @@ export const Item = styled.li`
     ),
     #06071b;
   backdrop-filter: blur(17.5px);
+  &:last-child {
+    margin-bottom: 40px;
+  }
 `;
 export const Img = styled.img`
   width: 248px;
