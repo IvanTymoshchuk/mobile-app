@@ -56,10 +56,10 @@ export const Contact = () => {
       </WrapBtn>
       <List>
         <Items>
-          <Link href="">+xx-xxxx-xxxx-xx</Link>
+          <Link href="tel:+380961111111">+380961111111</Link>
         </Items>
         <Items>
-          <Link href="">goIteens@gmail.com</Link>
+          <Link href="mailto:info@devstudio.com">info@devstudio.com</Link>
         </Items>
       </List>
     </Section>
