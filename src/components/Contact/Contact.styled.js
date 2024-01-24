@@ -4,6 +4,7 @@ export const Section = styled.section`
   padding-top: 40px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 40px;
   background: #06071b;
 `;
 export const Form = styled.form`
@@ -65,7 +66,6 @@ export const List = styled.ul`
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  margin-bottom: 40px;
 `;
 export const Items = styled.li``;
 export const Link = styled.a`

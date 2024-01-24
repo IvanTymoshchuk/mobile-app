@@ -1,7 +1,9 @@
-import React from 'react';
+import { Section, Span } from './Footer.styled';
 
 export const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <Section>
+      <Span>© 2019 GoIteens Template. All Rights Reserved</Span>
+    </Section>
+  );
 };
-
-
