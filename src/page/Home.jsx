@@ -1,3 +1,4 @@
+import { Contact } from 'components/Contact/Contact';
 import { Fauteres } from 'components/Features/Fauteres';
 import { HomeComp } from 'components/Home/Home';
 import { Team } from 'components/Team/Team';
@@ -11,6 +12,7 @@ const Home = () => {
       <Fauteres />
       <Video />
       <Team />
+      <Contact />
     </>
   );
 };

@@ -13,7 +13,10 @@ export const Customers = () => {
       <WrapText>
         <Paragraf>Jon Doe</Paragraf>
         <Span>Company Inc.</Span>
-        <SubTitles text="I've been using this app for a few weeks now and I have to say, I'm really impressed. It's so easy to use and the personalized recommendations are spot-on. Plus, the transactions are secure and the updates are always timely. I would definitely recommend this app to anyone looking for a better mobile experience." />
+        <SubTitles
+          text="I've been using this app for a few weeks now and I have to say, I'm really impressed. It's so easy to use and the personalized recommendations are spot-on. Plus, the transactions are secure and the updates are always timely. I would definitely recommend this app to anyone looking for a better mobile experience."
+          margin={80}
+        />
       </WrapText>
     </>
   );
