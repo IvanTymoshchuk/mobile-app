@@ -62,7 +62,7 @@ export const Nav = styled.nav`
 export const NavList = styled.ul`
   display: flex;
   align-items: center;
-
+  gap: 36px;
   @media screen and (max-width: 768px) {
     flex-direction: column;
     padding-top: 100px;
@@ -74,17 +74,20 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li``;
 
-export const NavLink = styled.button`
-  padding: 10px;
+export const NavLink = styled.a`
   color: white;
-  font-size: 15px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
   font-weight: 500;
-  border-radius: 5px;
-  cursor: pointer;
+  line-height: normal;
   @media screen and (min-width: 768px) {
     &:hover,
     &:focus {
       background: linear-gradient(90deg, #00c5eb -1.97%, #b544fe 89.43%);
+      -webkit-background-clip: text;
+      color: transparent;
       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
