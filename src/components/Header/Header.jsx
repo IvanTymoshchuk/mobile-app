@@ -1,17 +1,17 @@
+// Header.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   HeaderContainer,
   Logo,
   HeaderLogo,
-  Nav,
   NavList,
   NavItem,
   NavLink,
-  CloseButton,
   ToggleButton,
 } from './Header.styled';
 import { SvgIcon } from 'components/Svg/Svg';
+import { Modal } from 'components/Modal/Modal';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,10 +34,7 @@ export const Header = () => {
         </HeaderLogo>
       </Logo>
 
-      <Nav id="nav-menu" className={isMenuOpen ? 'show' : ''}>
-        <CloseButton onClick={toggleMenu}>
-          <SvgIcon iconId="icon-close" width={20} height={20}></SvgIcon>
-        </CloseButton>
+      <Modal isOpen={isMenuOpen} onClose={toggleMenu}>
         <NavList>
           <NavItem>
             <NavLink onClick={() => handleNavLinkClick('/')}>HOME</NavLink>
@@ -63,7 +60,8 @@ export const Header = () => {
             </NavLink>
           </NavItem>
         </NavList>
-      </Nav>
+      </Modal>
+
       <ToggleButton onClick={toggleMenu}>
         <SvgIcon width={20} height={20} iconId="icon-Burger"></SvgIcon>
       </ToggleButton>

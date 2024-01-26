@@ -12,8 +12,15 @@ import {
   WrapBtn,
 } from './Home.styled';
 import { SvgIcon } from 'components/Svg/Svg';
+import { useState } from 'react';
+import { Modal } from 'components/Modal/Modal';
 
 export const HomeComp = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <Section>
       <Header />
@@ -38,8 +45,11 @@ export const HomeComp = () => {
           </List>
           <WrapBtn>
             {' '}
-            <Button>Download</Button>
+            <Button onClick={toggleMenu}>Download</Button>
           </WrapBtn>
+          <Modal isOpen={isMenuOpen} onClose={toggleMenu}>
+            <h2>work</h2>
+          </Modal>
         </WrapText>
       </Wrap>
     </Section>
