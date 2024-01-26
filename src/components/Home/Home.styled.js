@@ -9,6 +9,10 @@ export const Wrap = styled.div`
   position: relative;
   height: 430px;
 `;
+export const WrapBtn = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 export const WrapBackground = styled.div`
   position: absolute;
@@ -40,7 +44,6 @@ export const Title = styled.h1`
 `;
 export const SubTitle = styled.h2`
   color: #fff;
-  font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -55,9 +58,7 @@ export const List = styled.ul`
 `;
 export const Items = styled.li`
   color: #fff;
-  font-family: Inter;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   display: flex;
@@ -65,6 +66,9 @@ export const Items = styled.li`
   gap: 10px;
 `;
 export const Button = styled.button`
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
   width: 200px;
   height: 42px;
   border-radius: 5px;

@@ -8,7 +8,8 @@ import {
   WrapText,
   Button,
   List,
-  WrapBackground
+  WrapBackground,
+  WrapBtn,
 } from './Home.styled';
 import { SvgIcon } from 'components/Svg/Svg';
 
@@ -17,7 +18,7 @@ export const HomeComp = () => {
     <Section>
       <Header />
       <Wrap>
-      <WrapBackground />
+        <WrapBackground />
         <WrapText>
           <Title>Introducing Mobileapp</Title>
           <SubTitle>Download our mobile app today!</SubTitle>
@@ -35,7 +36,10 @@ export const HomeComp = () => {
               Offline capabilities for uninterrupted use
             </Items>
           </List>
-          <Button>Download</Button>
+          <WrapBtn>
+            {' '}
+            <Button>Download</Button>
+          </WrapBtn>
         </WrapText>
       </Wrap>
     </Section>
