@@ -5,7 +5,7 @@ export const Modal = ({ isOpen, onClose, children }) => {
   return (
     <Nav id="nav-menu" className={isOpen ? 'show' : ''}>
       <CloseButton onClick={onClose}>
-        <SvgIcon iconId="icon-close" width={20} height={20}></SvgIcon>
+        <SvgIcon iconId="icon-close" width={32} height={32}></SvgIcon>
       </CloseButton>
       {children}
     </Nav>

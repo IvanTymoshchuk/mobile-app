@@ -63,7 +63,7 @@ export const Header = () => {
       </Modal>
 
       <ToggleButton onClick={toggleMenu}>
-        <SvgIcon width={20} height={20} iconId="icon-Burger"></SvgIcon>
+        <SvgIcon width={24} height={24} iconId="icon-Burger"></SvgIcon>
       </ToggleButton>
     </HeaderContainer>
   );
