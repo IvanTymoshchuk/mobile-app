@@ -10,10 +10,12 @@ import {
   List,
   WrapBackground,
   WrapBtn,
+  WrapImgTab,
 } from './Home.styled';
 import { SvgIcon } from 'components/Svg/Svg';
 import { useState } from 'react';
 import { Modal } from 'components/Modal/Modal';
+import hero from '../img/hero/hero.png';
 
 export const HomeComp = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,6 +27,9 @@ export const HomeComp = () => {
     <Section>
       <Header />
       <Wrap>
+        <WrapImgTab>
+          <img src={hero} alt="hero" width="362px" height="352px" />
+        </WrapImgTab>
         <WrapBackground />
         <WrapText>
           <Title>Introducing Mobileapp</Title>
