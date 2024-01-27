@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/mobile-app/static/css/main.07514f00.css",
-    "main.js": "/mobile-app/static/js/main.3ec219e2.js",
-    "static/js/560.8297746b.chunk.js": "/mobile-app/static/js/560.8297746b.chunk.js",
+    "main.js": "/mobile-app/static/js/main.c6e03f8b.js",
+    "static/js/644.c0c2012c.chunk.js": "/mobile-app/static/js/644.c0c2012c.chunk.js",
+    "static/media/iPhone.png": "/mobile-app/static/media/iPhone.e943e5f9813dc9a65b42.png",
     "static/media/1.png": "/mobile-app/static/media/1.293267c03378cf49a7fd.png",
     "static/media/2.png": "/mobile-app/static/media/2.2f4b7ca47350135df401.png",
     "static/media/hero-tel.png": "/mobile-app/static/media/hero-tel.63c0cb3e936edaaaa2b2.png",
@@ -11,14 +12,15 @@
     "static/media/video.png": "/mobile-app/static/media/video.3e9529a20668ebacd5cd.png",
     "static/media/3.png": "/mobile-app/static/media/3.896a228d5167c410aba5.png",
     "static/media/custumers.png": "/mobile-app/static/media/custumers.c2cbc49289ccfd2cca1a.png",
+    "static/media/hero.png": "/mobile-app/static/media/hero.3e7d9d74a8c53e0d1310.png",
     "static/media/symbol-defs.svg": "/mobile-app/static/media/symbol-defs.9eec2f62bd3401daba2e3519be8e7130.svg",
     "index.html": "/mobile-app/index.html",
     "main.07514f00.css.map": "/mobile-app/static/css/main.07514f00.css.map",
-    "main.3ec219e2.js.map": "/mobile-app/static/js/main.3ec219e2.js.map",
-    "560.8297746b.chunk.js.map": "/mobile-app/static/js/560.8297746b.chunk.js.map"
+    "main.c6e03f8b.js.map": "/mobile-app/static/js/main.c6e03f8b.js.map",
+    "644.c0c2012c.chunk.js.map": "/mobile-app/static/js/644.c0c2012c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07514f00.css",
-    "static/js/main.3ec219e2.js"
+    "static/js/main.c6e03f8b.js"
   ]
 }
