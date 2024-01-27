@@ -19,8 +19,7 @@ export const Section = styled.section`
       #3d99f1 44.79%,
       rgba(181, 68, 254, 1) 100%
     );
-    /* filter: blur(500px); */
-    filter: blur(110.5px);
+    filter: blur(500px);
     z-index: -1;
   }
 `;
