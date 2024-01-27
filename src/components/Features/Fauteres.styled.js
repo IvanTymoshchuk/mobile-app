@@ -44,6 +44,7 @@ export const ItemsTitle = styled.h3`
   line-height: 20px;
   margin-bottom: 12px;
   display: flex;
+  align-items: center;
   gap: 12px;
 `;
 export const Paragraf = styled.p`

@@ -9,8 +9,7 @@ import {
   Paragraf,
 } from './Fauteres.styled';
 import fautures from '../img/fautures.png';
-import { SvgIcon } from 'components/Svg/Svg';
-// import nft from '../img/nft.png';
+import nft from '../img/nft.png';
 
 export const Fauteres = () => {
   return (
@@ -26,7 +25,7 @@ export const Fauteres = () => {
       <List>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             User-Friendly Interface:
           </ItemsTitle>
           <Paragraf>
@@ -36,7 +35,7 @@ export const Fauteres = () => {
         </Items>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             Personalized Recommendations:
           </ItemsTitle>
           <Paragraf>
@@ -46,7 +45,7 @@ export const Fauteres = () => {
         </Items>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             Real-Time Updates:
           </ItemsTitle>
           <Paragraf>
@@ -57,7 +56,7 @@ export const Fauteres = () => {
         </Items>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             Integration with Other Apps:
           </ItemsTitle>
           <Paragraf>
@@ -68,7 +67,7 @@ export const Fauteres = () => {
         </Items>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             Multi-Language Support:
           </ItemsTitle>
           <Paragraf>
@@ -79,7 +78,7 @@ export const Fauteres = () => {
         </Items>
         <Items>
           <ItemsTitle>
-            <SvgIcon iconId="icon-langues" width={20} height={20} />
+            <img src={nft} alt="nft" width={28} height={28} />
             Offline Capabilities:
           </ItemsTitle>
           <Paragraf>
