@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mobile-app/static/css/main.07514f00.css",
-    "main.js": "/mobile-app/static/js/main.974d3817.js",
-    "static/js/414.3a3b17cc.chunk.js": "/mobile-app/static/js/414.3a3b17cc.chunk.js",
+    "main.js": "/mobile-app/static/js/main.7f833151.js",
+    "static/js/414.c24f1dfb.chunk.js": "/mobile-app/static/js/414.c24f1dfb.chunk.js",
     "static/media/1.png": "/mobile-app/static/media/1.293267c03378cf49a7fd.png",
     "static/media/2.png": "/mobile-app/static/media/2.2f4b7ca47350135df401.png",
     "static/media/hero-tel.png": "/mobile-app/static/media/hero-tel.63c0cb3e936edaaaa2b2.png",
@@ -14,11 +14,11 @@
     "static/media/symbol-defs.svg": "/mobile-app/static/media/symbol-defs.9eec2f62bd3401daba2e3519be8e7130.svg",
     "index.html": "/mobile-app/index.html",
     "main.07514f00.css.map": "/mobile-app/static/css/main.07514f00.css.map",
-    "main.974d3817.js.map": "/mobile-app/static/js/main.974d3817.js.map",
-    "414.3a3b17cc.chunk.js.map": "/mobile-app/static/js/414.3a3b17cc.chunk.js.map"
+    "main.7f833151.js.map": "/mobile-app/static/js/main.7f833151.js.map",
+    "414.c24f1dfb.chunk.js.map": "/mobile-app/static/js/414.c24f1dfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07514f00.css",
-    "static/js/main.974d3817.js"
+    "static/js/main.7f833151.js"
   ]
 }
