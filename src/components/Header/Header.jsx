@@ -15,6 +15,7 @@ import { Modal } from 'components/Modal/Modal';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
   const navigate = useNavigate();
 
   const toggleMenu = () => {
